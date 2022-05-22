@@ -8,8 +8,8 @@ const Hero = () => {
 		<section className={classes.hero}>
 			<div className={classes.image}>
 				<Image
-					src='/images/site/coding-event.jpg'
-					alt='An image showing Coding'
+					src={`/images/site/coding-event.jpg`}
+					alt={`An image showing Coding`}
 					width={300}
 					height={300}
 				/>
